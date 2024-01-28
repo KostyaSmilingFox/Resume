@@ -1,0 +1,19 @@
+<div>
+    {{#with main}}
+    <main>
+        <section>
+            {{>title data = hobbies.title big = true}}
+            <ul>
+                {{#each hobbies}}
+                <li>
+                    {{name}}
+                    {{#unless isMain }}(favorite){{/unless}}
+                   
+
+                </li>
+                {{/each}}
+            </ul>
+        </section>
+    </main>
+    {{/with}}
+</div>
