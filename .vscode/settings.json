@@ -1,5 +1,7 @@
 {
     "cSpell.words": [
         "Radioelectronics"
-    ]
+    ],
+    "liveServer.settings.CustomBrowser": "chrome",
+    "simpleBrowser.focusLockIndicator.enabled": false
 }
